@@ -1,0 +1,61 @@
+// En un método principal se debe seleccionar entre dos funciones.
+
+// La función uno permite ingresar autos: marca del auto y año de fabricación.
+
+// La función dos permite ingresar motos: tipo de motor y número de asientos
+
+// La función uno debe retornar una cadena; como ejemplo: Auto marca
+// chevrolet con año de fabricación 1990.
+
+// La función dos debe retornar una cadena; como ejemplo: Moto con motor
+// a gasolina y 2 asientos.
+
+// Atención: todos los valores deben ser ingresados por teclado.
+
+1.Inicio
+
+2. funcion principal()
+3.     opcion, i[0-n]
+4.     valor, (500)[{A-Z}. {a-z}, {BS}, {0-n}] = ""
+5.     Escribir "Ingresar 1 para ingresar autos"
+6.     Escribir "Ingresar 2 para ingresar motos: "
+7.     Leer opcion
+8.     Dependiendo_De (opcion) Haga
+9.         Opcion 1
+10.             valor <-- ingresarAutos()
+
+11.         Fin
+12.         Opcion 2
+13.             valor <-- ingresarMotos()
+14.         Fin
+15.     Fin_Dependiendo_De
+16.     Escribir valor
+17. fin funcion principal
+
+18. funcion ingresarAutos() : x
+19.     marcaDeAuto,  x(200)[{a-b}, {BS}, {*, =}] <-- ""
+20.     añoDeFabricacion, i [0,n]
+21.     mensajeFinal, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+22.     Escribir "Ingrese la marca del auto"
+23.     Leer marca
+24.     Escribir "Ingrese año de fabricacion"
+25.     Leer añoDeFabricacion
+26.     mensajeFinal <-- "Auto marca " + marcaDeAuto +
+                           " con añoDeFabricacion " + añoDeFabricacion +".\n"
+27.     return mensajeFinal
+28. fin funcion ingrasarAutos
+
+29. funcion ingresarMotos() : x
+30.     tipoMotor,  x(200)[{a-b}, {BS}, {*, =}] <-- ""
+31.     numeroDeAsiento, i [0,n]
+32.     mensajeFinal, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+33.     Escribir "Ingrese el tipo de motor"
+34.     Leer tipoMotor
+35.     Escribir "Ingresar el numero de asientos"
+36.     Leer numeroDeAsientos
+37.     mensajeFinal <-- "Moto con motor a " + tipoMotor + " y " +
+                         numeroDeAsientos + " asientos.\n"
+38.     return mensajeFinal
+39. fin funcion ingresarMotos
+
+40. Fin
