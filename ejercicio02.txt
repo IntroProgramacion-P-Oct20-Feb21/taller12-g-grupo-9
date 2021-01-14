@@ -1,0 +1,13 @@
+// En un método principal se debe seleccionar entre dos funciones.
+
+// La función uno permite ingresar autos: marca del auto y año de fabricación.
+
+// La función dos permite ingresar motos: tipo de motor y número de asientos
+
+// La función uno debe retornar una cadena; como ejemplo: Auto marca
+// chevrolet con año de fabricación 1990.
+
+// La función dos debe retornar una cadena; como ejemplo: Moto con motor
+// a gasolina y 2 asientos.
+
+// Atención: todos los valores deben ser ingresados por teclado.
