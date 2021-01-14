@@ -1,1 +1,14 @@
-.
+// Dados los siguientes arreglos
+
+// arreglo1(4), i[0-n] <-- {9, 8, 7, 6}
+// arreglo2(4), i[0-n] <-- {2, 3, 2, 3}
+
+// Recorrer los mismos desde un método principal. En cada iteración se
+// debe llamar a un procedimiento que reciba 2 parámetros (generarOperacion).
+// El procedimiento debe realizar la siguiente operación.
+
+// z = (a**2 + b ** 2) + a*b
+
+// En imprimir:
+
+// El valor de z es ?
