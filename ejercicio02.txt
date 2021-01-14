@@ -11,3 +11,23 @@
 // a gasolina y 2 asientos.
 
 // Atención: todos los valores deben ser ingresados por teclado.
+
+1.Inicio
+
+2. funcion principal()
+3.     opcion, i[0-n]
+4.     valor, (500)[{A-Z}. {a-z}, {BS}, {0-n}] = ""
+5.     Escribir "Ingresar 1 para ingresar autos"
+6.     Escribir "Ingresar 2 para ingresar motos: "
+7.     Leer opcion
+8.     Dependiendo_De (opcion) Haga
+9.         Opcion 1
+10.             valor <-- ingresarAutos()
+
+11.         Fin
+12.         Opcion 2
+13.             valor <-- ingresarMotos()
+14.         Fin
+15.     Fin_Dependiendo_De
+16.     Escribir valor
+17. fin funcion principal
