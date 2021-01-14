@@ -31,3 +31,31 @@
 15.     Fin_Dependiendo_De
 16.     Escribir valor
 17. fin funcion principal
+
+18.  funcion ingresarAutos() : x
+19.      marcaDeAuto,  x(200)[{a-b}, {BS}, {*, =}] <-- ""
+20.      añoDeFabricacion, i [0,n]
+21.      mensajeFinal, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+22.      Escribir "Ingrese la marca del auto"
+23.      Leer marca
+24.     Escribir "Ingrese año de fabricacion"
+25.     Leer añoDeFabricacion 
+26.       mensajeFinal <-- "Auto marca " + marcaDeAuto + " con año de fabricación "
+                 + añoDeFabricacion +".\n"
+27.    return mensajeFinal
+28.  fin funcion ingrasarAutos
+
+
+29.  funcion ingresarMotos() : x
+30.      tipoMotor,  x(200)[{a-b}, {BS}, {*, =}] <-- ""
+31.      numeroDeAsiento, i [0,n]
+32.      mensajeFinal, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+33.      Escribir "Ingrese el tipo de motor"
+34.      Leer tipoMotor
+35.     Escribir "Ingresar el numero de asientos"
+36.     Leer numeroDeAsientos 
+37.       mensajeFinal <-- "Moto con motor a " + tipoMotor + " y " + numeroDeAsientos +
+                 " asientos.\n"
+
+38.     return mensajeFinal
+39.  fin funcion ingresarMotos
