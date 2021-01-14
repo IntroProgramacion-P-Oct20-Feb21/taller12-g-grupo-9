@@ -17,10 +17,17 @@
 2. funcion principal()
 3.     (arreglo1(4), i[0-n])
 4.     (arreglo2(4), i[0-n])
-5.     arreglo1(4), i[0-n] <-- {9, 8, 7, 6}
-6.     arreglo2(4), i[0-n] <-- {2, 3, 2, 3}
+5.     arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
+6.     arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
 7.     contador, i[0-n]
 8.     Para (contador <-- 0, contador < 4, 1) haga
 9.         generarOperacion(arreglo1[contador], arreglo2[contador])
 10.     Fin_Para
 11. fin funcion principal
+12. funcion generarOperacion(a, i; b, i)
+13.     z, i[0-n]
+14.     z = (a**2 + b ** 2) + a*b
+15.     Escribir "El valor de z es: " + z
+16. fin funcion generarOperacion
+
+17. Fin
